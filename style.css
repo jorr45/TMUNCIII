@@ -53,7 +53,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
 
 .Title ul{
     list-style-type:none;
-    padding-bottom:10;
+    margin: 10px;
+    padding: 0px;
+    
 }
 
 .Title li a{
@@ -63,11 +65,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
 
 }
 
+#selected{
+    border-width:0px;
+    border-style: solid;
+    background-color: rgba(255,255,100,.34);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+}
+
 .Title li{
     display: inline;
-    border: 20px;
+    padding: 8px;
+    margin: 10px;
     text-align: center;
-    padding-right: 23px;
 
 }
 
