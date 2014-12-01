@@ -65,10 +65,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
 
 }
 
-<<<<<<< HEAD
-.Title li a:hover{
-    text-decoration: underline;
-=======
 #selected{
     border-width:0px;
     border-style: solid;
@@ -79,8 +75,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
     border-bottom-left-radius: 10px;
 
 
->>>>>>> origin/gh-pages
-}
+} 
 
 .Title li{
     display: inline;
