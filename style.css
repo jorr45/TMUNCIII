@@ -41,7 +41,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
 }
 
 .Title li a:hover{
-    text-decoration: underline;
+    border-bottom:1px;
 }
 
 .Title h2{
