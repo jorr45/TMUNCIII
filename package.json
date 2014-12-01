@@ -1,0 +1,24 @@
+{
+  "name": "Jordan",
+  "version": "1.0.0",
+  "description": "TMUNC III",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorr45/TMUNCIII.git"
+  },
+  "keywords": [
+    "TMUNC III",
+    "TMUNCIII",
+    "Trinity",
+    "Model UN",
+    "UN",
+    "United Nations",
+    "TMUNC"
+  ],
+  "author": "jordan ofek",
+  "license": "ISC"
+}
