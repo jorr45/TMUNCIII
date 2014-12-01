@@ -104,7 +104,7 @@ table, th, td {
     outline: none;
 }
 th, td {
-    padding: 18px;
+    padding: 20px;
     text-align: left;
 }
 table tr:nth-child(even) {
