@@ -40,6 +40,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
     text-decoration: none;
 }
 
+.Title li a:hover{
+    text-decoration: underline;
+}
+
 .Title h2{
     font-size: 200%;
     color: #233F91;
