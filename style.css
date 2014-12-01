@@ -1,5 +1,5 @@
 body{ 
-    font: normal 80%  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font: normal 80%  Garamond, Georgia, serif;
     background: #E8EBEF repeat-x;
     color: #000;
     height:100%;
@@ -23,7 +23,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
     border-color: #556FA2;
     border-width: 1px;
     border-style: solid;
-    border-top: none;
+    text-decoration: none;
     
 }
 
@@ -32,6 +32,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
     color: #233F91;
     margin-bottom: 0px;
     height: 84px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.Title a{
+    text-decoration: none;
 }
 
 .Title h2{
@@ -40,8 +46,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
     margin-bottom:5px;
 }
 .Title img{
-    vertical-align: 1px;
+    vertical-align: -10px;
     padding-left: 10px;
+    text-decoration: none;
 }
 
 .Title ul{
@@ -49,11 +56,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
     padding-bottom:10;
 }
 
-.Title a{
+.Title li a{
     font-style: normal;
     color:  #233F91;
-    text-decoration: none;
-    font-size: 20px
+    font-size: 20px;
 
 }
 
@@ -104,7 +110,7 @@ table, th, td {
     outline: none;
 }
 th, td {
-    padding: 18px;
+    padding: 20px;
     text-align: left;
 }
 table tr:nth-child(even) {
