@@ -2,12 +2,15 @@
     <head>
         <meta name="robots" content="noindex">
         <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="keyframes.css">
+	<link rel="stylesheet" href="pageTransitions.css">
         <link href="Trinity%20Logo%20favicon.png" rel="shortcut icon" />
         <title>TMUNC III</title>
         
     </head>
     
     <body>
+	<div class="m-scene" id="main">
         <div class="Title">
             <center>
                <a href="index.html"><h1>TMUNC III 
@@ -25,6 +28,7 @@
                 </ul>
             </center>
         </div>
+  <div class="m-page scene_element scene_element--fadein">
         <div class = "Content">
             <center><img src="http://i3.birminghammail.co.uk/incoming/article4293270.ece/alternates/s2197/Judges-gavel-court-stock.jpg" width="650" height="410">
            <h3>POLICIES</h3></center>
@@ -39,7 +43,7 @@
             <p>Any committee legislation that is submitted for committee and/or dais consideration or discussed with other delegates must be written after the start of Committee Session I. Such legislation includes, but is not limited to: working papers, draft resolutions, directives, communiques, press releases, and war plans. Any delegate found to have pre-written legislation will be disqualified from receiving awards, and his or her team disqualified from receiving a delegation award.</p>
             
             <h4>Laptops</h4>
-            <p>Laptop use is permitted outside the committee room for the General Assembly committee (though handwritten legislation will still be accepted). Trinity will provide laptops for use by the Ministry of Magic crisis committee for use in and out of committee. Delegates are expected to use electronic devices appropriately at all times; laptop use while committee is in session must be for committee purposes only.</p>
+            <p>Laptop use is permitted outside the committee room for the General Assembly committee (though handwritten legislation will still be accepted), and <i>required</i> in the Ministry of Magic crisis committee. Delegates are expected to use electronic devices appropriately at all times; laptop use while committee is in session must be for committee purposes only.</p>
             <h4>Awards</h4>
             <p>The dais on each committee will determine individual awards for delegates who are most effective in committee. Delegates who submit position papers via email to committee chairs by February 21st will be eligible for a position paper award. Delegations will receive awards on a point-based system, with one award for the Best Delegation and one award for the (second-place) Outstanding Delegation.</p>
             
@@ -62,13 +66,17 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6041.430104011592!2d-73.97129320000002!3d40.7902782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258832b32193d%3A0xfeb27d70ad85dfe2!2s101+W+91st+St%2C+New+York%2C+NY+10024!5e0!3m2!1sen!2sus!4v1417409846070" width="600" height="450" frameborder="0" style="border:0"></iframe>
             
         </div>
-        <center><div class="Footer_Wrapper">
+<center>
+<div class="Footer_Wrapper">
             <div class = "Footer"><center><h3>CONTACT</h3></center>
             <p>We'd love to hear from you! Be it questions, comments, concerns, or complaints, feel free to reach out to our Secretaries-General via email at <a href = "mailto:sg@tmunc.org" target="_top" subject="TMUNC%20III">sg@tmunc.org</a>.</p>
             </div>
         </div>
         <br>
-            <p> Website created by Jordan Ofek '15 on behalf of <a href="http://www.trinityschoolnyc.org/">Trinity School</a>.</p><br></center>
+            <p> Website created by Jordan Ofek '15 on behalf of <a href="http://www.trinityschoolnyc.org/">Trinity School</a>.</p><br></center></div></div>
     
-    </body>
+<script src="jquery-1.11.2.min.js"></script>
+	<script src="jquery.smoothState.js"></script>
+	<script src="functions.js"></script>    
+</body>
 </html>
