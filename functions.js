@@ -1,5 +1,4 @@
 // Contents of functions.js
-var elTop = 0;
 ;(function($) {
   'use strict';
   var $body = $('html, body'),
