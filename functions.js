@@ -6,7 +6,6 @@ var elTop = 0;
       content = $('#main').smoothState({
         // Runs when a link has been activated
         elTop:0,
-        prefetch: true,
 	pageCacheSize:5,
 	onStart: {
           duration: 600, // Duration of our animation
