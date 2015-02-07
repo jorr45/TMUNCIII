@@ -5,7 +5,6 @@ var elTop = 0;
   var $body = $('html, body'),
       content = $('#main').smoothState({
         // Runs when a link has been activated
-        elTop:0,
 	pageCacheSize:5,
 	onStart: {
           duration: 600, // Duration of our animation
@@ -23,12 +22,11 @@ var elTop = 0;
       //.data('smoothState') makes public methods available
 })(jQuery);
 
-$( document ).ready(function() {
-    var $window = $(window),
-       $stickyEl = $('#the-sticky-div'),
-       elTop = $stickyEl.offset().top;
 
-   $window.scroll(function() {
-        $stickyEl.toggleClass('sticky', $window.scrollTop() > 150);
-    });
+
+   $(window).scroll(function() {
+	$stickyEl = $('#the-sticky-div');
+	var $window = $(window);
+        $stickyEl.toggleClass('sticky', $window.scrollTop() > 140);
+
 });
