@@ -49,6 +49,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
     vertical-align: -10px;
     padding-left: 10px;
     text-decoration: none;
+    background:none;
+box-shadow: none;
+padding: 0px;
 }
 
 .Title ul{
@@ -113,6 +116,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
 .Content h4{
     font-size: 150%;
     margin-bottom: 0px;
+}
+
+img {
+background: #fff;
+	border-radius: 2px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+padding: 8px;
+-webkit-box-shadow: 1px 2px 1px #d1d1d1;
+-moz-box-shadow: 1px 2px 1px #d1d1d1;
+box-shadow: 1px 2px 1px #d1d1d1;
+}
+
+iframe{
+background: #fff;
+	border-radius: 2px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+padding: 8px;
+-webkit-box-shadow: 1px 2px 1px #d1d1d1;
+-moz-box-shadow: 1px 2px 1px #d1d1d1;
+box-shadow: 1px 2px 1px #d1d1d1;
 }
 
 table {
