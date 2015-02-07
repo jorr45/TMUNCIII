@@ -4,7 +4,9 @@
   var $body = $('html, body'),
       content = $('#main').smoothState({
         // Runs when a link has been activated
-        onStart: {
+        prefetch: true,
+	pageCacheSize:5,
+	onStart: {
           duration: 300, // Duration of our animation
           render: function (url, $container) {
             // toggleAnimationClass() is a public method
