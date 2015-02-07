@@ -29,6 +29,6 @@ $( document ).ready(function() {
        elTop = $stickyEl.offset().top;
 
    $window.scroll(function() {
-        $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
+        $stickyEl.toggleClass('sticky', $window.scrollTop() > 150);
     });
 });
