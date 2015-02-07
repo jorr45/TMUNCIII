@@ -7,7 +7,7 @@
         prefetch: true,
 	pageCacheSize:5,
 	onStart: {
-          duration: 300, // Duration of our animation
+          duration: 600, // Duration of our animation
           render: function (url, $container) {
             // toggleAnimationClass() is a public method
             // for restarting css animations with a class
