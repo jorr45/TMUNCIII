@@ -1,9 +1,11 @@
 // Contents of functions.js
+var elTop = 0;
 ;(function($) {
   'use strict';
   var $body = $('html, body'),
       content = $('#main').smoothState({
         // Runs when a link has been activated
+        elTop:0,
         prefetch: true,
 	pageCacheSize:5,
 	onStart: {
