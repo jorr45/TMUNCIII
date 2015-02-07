@@ -24,11 +24,12 @@ var elTop = 0;
       //.data('smoothState') makes public methods available
 })(jQuery);
 
-
-var $window = $(window),
+$( document ).ready(function() {
+    var $window = $(window),
        $stickyEl = $('#the-sticky-div'),
        elTop = $stickyEl.offset().top;
 
    $window.scroll(function() {
         $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
     });
+});

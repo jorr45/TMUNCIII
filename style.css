@@ -195,12 +195,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff457', end
 #the-sticky-div.sticky {
      z-index:1;
      position: fixed;
+	top:0;
      width:100%;
      border-color: #556FA2;
 	border-width:0px;
     border-bottom-width: 1px;
     border-style: solid;
-     top: 0;
 background: rgba(255,244,87,1);
 background: -moz-linear-gradient(top, rgba(255,199,72,1) 0%, rgba(255,183,66,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,199,72,1)), color-stop(100%, rgba(255,183,66,1)));
