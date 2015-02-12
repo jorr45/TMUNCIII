@@ -11,10 +11,10 @@ ul{list-style-type:none;margin:20px;margin-left:auto;margin-right:auto;}
 .Title li{display:inline;padding:8px;margin:10px;text-align:center;}
 .Content{margin-left:auto;margin-right:auto;max-width:70%;padding-top:35px;padding-bottom:60px;}
 .Content a{text-decoration:none;}
-.Content p{font-size:110%;margin-top:8px;line-height:140%;}
-.Content h2{font-size:190%;margin:0px;}
-.Content h3{font-size:160%;}
-.Content h4{font-size:130%;margin-bottom:0px;}
+.Content p{font-size:100%;margin-top:8px;line-height:140%;}
+.Content h2{font-size:150%;margin:0px;}
+.Content h3{font-size:130%;}
+.Content h4{font-size:120%;margin-bottom:0px;}
 img{background:#fff;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;padding:8px;-webkit-box-shadow:1px 2px 1px #d1d1d1;-moz-box-shadow:1px 2px 1px #d1d1d1;box-shadow:1px 2px 1px #d1d1d1;}
 iframe{background:#fff;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;padding:8px;-webkit-box-shadow:1px 2px 1px #d1d1d1;-moz-box-shadow:1px 2px 1px #d1d1d1;box-shadow:1px 2px 1px #d1d1d1;}
 table{width:100%;}
